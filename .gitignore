@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Env files
+.env
+
+# Ansible cache
+__pycache__/
+*.retry
+
+# Node artifacts
+node_modules/
+dist/
+logs/
